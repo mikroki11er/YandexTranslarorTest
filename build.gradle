@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'yandexTranslate'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.projectlombok:lombok:1.18.18'
+
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'ch.qos.logback:logback-core:1.2.5'
+    testImplementation 'ch.qos.logback:logback-classic:1.2.5'
+    implementation 'com.mashape.unirest:unirest-java:1.4.9'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.8.0-M1'
+    implementation 'org.slf4j:slf4j-api:1.7.26'
+    implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+}
+

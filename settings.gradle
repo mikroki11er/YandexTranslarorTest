@@ -1,0 +1,3 @@
+rootProject.name = 'yandextranslation'
+include 'src'
+

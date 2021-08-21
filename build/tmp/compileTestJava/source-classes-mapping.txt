@@ -1,0 +1,2 @@
+ru/testing/YandexTranslationTest.java
+ ru.testing.YandexTranslationTest

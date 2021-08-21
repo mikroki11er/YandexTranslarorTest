@@ -1,0 +1,8 @@
+gateway/YandexTranslationGateway.java
+ gateway.YandexTranslationGateway
+entities/Translations.java
+ entities.Translations
+ entities.Translations$TranslationsBuilder
+entities/Translation.java
+ entities.Translation
+ entities.Translation$TranslationBuilder
